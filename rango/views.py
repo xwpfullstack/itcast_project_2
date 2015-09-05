@@ -5,6 +5,10 @@ from rango.forms import CategoryForm
 from rango.forms import PageForm
 from django.contrib.auth import authenticate, login
 from django.http import HttpResponseRedirect, HttpResponse
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth import logout
+
+
 
 
 def index(request):
@@ -12,6 +16,8 @@ def index(request):
         context_dict = {'categories': category_list}
         return render(request, 'rango/index.html', context_dict)
 
+def about(request):
+    return render(request, 'rango/about.html')
 
 
 def category(request, category_name_slug):
@@ -29,7 +35,7 @@ def category(request, category_name_slug):
     return render(request, 'rango/category.html', context_dict)
 
 
-
+@login_required
 def add_category(request): 
     if request.method == 'POST':
         form = CategoryForm(request.POST)
@@ -43,7 +49,7 @@ def add_category(request):
     return render(request, 'rango/add_category.html', {'form': form})
 
 
-
+@login_required
 def add_page(request, category_name_slug):
     try:
         cat = Category.objects.get(slug=category_name_slug)
@@ -116,3 +122,11 @@ def user_login(request):
     else:
         return render(request, 'rango/login.html', {})
 
+@login_required
+def restricted(request):
+    return HttpResponse("Since you're logged in, you can see this text!")
+
+@login_required
+def user_logout(request):
+    logout(request)
+    return HttpResponseRedirect('/rango/')
