@@ -1,0 +1,1000 @@
+ 1080  mysql -uroot -pitcast
+ 1081  python manage.py migrate
+ 1082  ls
+ 1083  vi nuanxin/settings.py
+ 1084  subl .
+ 1085  python manage.py migrate
+ 1086  ls
+ 1087  c ..
+ 1088  ls
+ 1089  cd 
+ 1090  cd soft/
+ 1091  ls
+ 1092  history 
+ 1093  scp root@123.57.231.109:/root/workspace/MySQL-python-1.2.3b1.tar.gz ./
+ 1094  ls
+ 1095  tar zxvf MySQL-python-1.2.3b1.tar.gz 
+ 1096  cd MySQL-python-1.2.3b1/
+ 1097  ls
+ 1098  sudo python setup install
+ 1099  sudo python setup.py install
+ 1100  cd 
+ 1101  cd workspace/nuanxin/
+ 1102  ls
+ 1103  cd nuanxin/
+ 1104  ls
+ 1105  python manage.py migrate
+ 1106  exit
+ 1107  sudo apt-get install npm
+ 1108  npm install hexo-cli -g
+ 1109  sudo npm install hexo-cli -g
+ 1110  npm install hexo --save
+ 1111  sudo npm install hexo --save
+ 1112  sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
+ 1113  ls
+ 1114  cd workspace/
+ 1115  ls
+ 1116  ssh root@123.57.231.109
+ 1117  ls
+ 1118  cd app/
+ 1119  ls
+ 1120  cd templates/
+ 1121  ls
+ 1122  cp create.html.bak create.html
+ 1123  ls
+ 1124  cd ..
+ 1125  ls
+ 1126  cd ..
+ 1127  ls
+ 1128  cd wechat
+ 1129  ls
+ 1130  cd ..
+ 1131  cd wechat.bak/
+ 1132  ls
+ 1133  vi views.py
+ 1134  ls
+ 1135  scp views.py root@123.57.231.109:/root/workspace/nuanxin/wechat/
+ 1136  ls
+ 1137  vi views.py
+ 1138  scp views.py root@123.57.231.109:/root/workspace/nuanxin/wechat/
+ 1139  subl views.py
+ 1140  scp views.py root@123.57.231.109:/root/workspace/nuanxin/wechat/
+ 1141  cd ..
+ 1142  ls
+ 1143  cd app/
+ 1144  ls
+ 1145  cd templates/
+ 1146  ls
+ 1147  cd ..
+ 1148  ls
+ 1149  cd ..
+ 1150  ls
+ 1151  cd wechat_demo/
+ 1152  ls
+ 1153  cd wechat/
+ 1154  ls
+ 1155  cd app/
+ 1156  ls
+ 1157  vi config.py 
+ 1158  ls
+ 1159  vi my_function.py 
+ 1160  vi views.py 
+ 1161  exit
+ 1162  cd workspace/nuanxin/
+ 1163  ls
+ 1164  cd nuanxin/
+ 1165  ls
+ 1166  cd app/
+ 1167  ls
+ 1168  rm migrations/* -rf
+ 1169  cd ..
+ 1170  python manage.py migrate
+ 1171  ls
+ 1172  python manage.py makemigrations
+ 1173  python manage.py runserver
+ 1174  pip install wechat-sdk
+ 1175  sudo pip install wechat-sdk
+ 1176  ls
+ 1177  python manage.py runserver
+ 1178  python manage.py createsuperuser
+ 1179  python manage.py runserver
+ 1180  ls
+ 1181  cp wechat wechat.bak -r
+ 1182  exit
+ 1183  ps aux
+ 1184  kill 33737
+ 1185  ps aux
+ 1186  kill 33736
+ 1187  kill 33776
+ 1188  ps aux
+ 1189  kill 33853
+ 1190  ps aux
+ 1191  kill 33861
+ 1192  top
+ 1193  ps uax
+ 1194  history 
+ 1195  exit
+ 1196  cd
+ 1197  ssh root@123.57.231.109
+ 1198  exit
+ 1199  cd workspace/
+ 1200  ls
+ 1201  cd nuanxin/
+ 1202  ls
+ 1203  vi deamn.sh
+ 1204  ls
+ 1205  chmod 777 deamn.sh 
+ 1206  ./deamn.sh 
+ 1207  vi deamn.sh
+ 1208  ./deamn.sh 
+ 1209  vi deamn.sh
+ 1210  ./deamn.sh 
+ 1211  vi deamn.sh
+ 1212  ./deamn.sh 
+ 1213  ls
+ 1214  vi deamn.sh 
+ 1215  ./deamn.sh 
+ 1216  vi deamn.sh 
+ 1217  ./deamn.sh 
+ 1218  vi deamn.sh 
+ 1219  ./deamn.sh 
+ 1220  vi deamn.sh 
+ 1221  ./deamn.sh 
+ 1222  vi deamn.sh 
+ 1223  ./deamn.sh 
+ 1224  vi deamn.sh 
+ 1225  ./deamn.sh 
+ 1226  vi deamn.sh 
+ 1227  ./deamn.sh 
+ 1228  vi deamn.sh 
+ 1229  ./deamn.sh 
+ 1230  vi deamn.sh 
+ 1231  ./deamn.sh 
+ 1232  vi deamn.sh 
+ 1233  ./deamn.sh 
+ 1234  vi deamn.sh +7
+ 1235  ./deamn.sh 
+ 1236  vi deamn.sh +7
+ 1237  ./deamn.sh 
+ 1238  vi deamn.sh +7
+ 1239  ./deamn.sh 
+ 1240  vi deamn.sh +7
+ 1241  ./deamn.sh 
+ 1242  vi deamn.sh +7
+ 1243  ./deamn.sh 
+ 1244  vi deamn.sh +7
+ 1245  ./deamn.sh 
+ 1246  vi deamn.sh +7
+ 1247  ./deamn.sh 
+ 1248  vi deamn.sh +6
+ 1249  ./deamn.sh 
+ 1250  vi deamn.sh +6
+ 1251  ./deamn.sh 
+ 1252  vi deamn.sh +6
+ 1253  ./deamn.sh 
+ 1254  vi deamn.sh +6
+ 1255  ./deamn.sh 
+ 1256  vi deamn.sh +6
+ 1257  scp deamn.sh root@123.57.231.109:/root/workspace/nuanxin/
+ 1258  ls
+ 1259  vi deamn.sh 
+ 1260  ./deamn.sh 
+ 1261  vi deamn.sh 
+ 1262  ./deamn.sh 
+ 1263  vi deamn.sh 
+ 1264  ./deamn.sh 
+ 1265  vi deamn.sh 
+ 1266  ./deamn.sh 
+ 1267  vi deamn.sh 
+ 1268  ./deamn.sh 
+ 1269  vi deamn.sh 
+ 1270  exit
+ 1271  ls
+ 1272  scp create.html root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1273  ping www.baidu.com
+ 1274  ls
+ 1275  scp base.html root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1276  scp index.html root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1277  scp create.html root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1278  scp index.html root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1279  scp create.html root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1280  scp untreated_order.html  root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1281  cd ..
+ 1282  ls
+ 1283  cd wechat/
+ 1284  scp views.py  root@123.57.231.109:/root/workspace/nuanxin/wechat/
+ 1285  cd ..
+ 1286  cd app/
+ 1287  ls
+ 1288  cd templates/
+ 1289  ls
+ 1290  scp create.html  root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1291  ls
+ 1292  vi create.html
+ 1293  scp create.html  root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1294  pwd
+ 1295  scp create.html  root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1296  scp time.html  root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1297  scp base.html  root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1298  cd ..
+ 1299  ls
+ 1300  scp views.py  root@123.57.231.109:/root/workspace/nuanxin/app/
+ 1301  ls
+ 1302  scp views.py  root@123.57.231.109:/root/workspace/nuanxin/app/
+ 1303  ls
+ 1304  cd ..
+ 1305  ls
+ 1306  cd wechat
+ 1307  ls
+ 1308  vi views.py
+ 1309  ls
+ 1310  scp root@123.57.231.109:/root/workspace/nuanxin/wechat/view.py ./
+ 1311  scp root@123.57.231.109:/root/workspace/nuanxin/wechat/views.py ./
+ 1312  ls
+ 1313  scp views.py root@123.57.231.109:/root/workspace/nuanxin/wechat/
+ 1314  ls
+ 1315  cd ..
+ 1316  ls
+ 1317  cd ..
+ 1318  ls
+ 1319  cd ..
+ 1320  ls
+ 1321  cd ..
+ 1322  ls
+ 1323  cd workspace/
+ 1324  ls
+ 1325  cd testing/
+ 1326  ls
+ 1327  tar zxvf nuanxin_0722.tar.gz 
+ 1328  cd nuanxin/app/
+ 1329  ls
+ 1330  vi views.py
+ 1331  cd templates/
+ 1332  ls
+ 1333  vi create.html 
+ 1334  ls
+ 1335  cd ..
+ 1336  ls
+ 1337  cd ..
+ 1338  ls
+ 1339  cd ..
+ 1340  ls
+ 1341  cd ..
+ 1342  ls
+ 1343  cd nuanxin/
+ 1344  ls
+ 1345  cd wechat_demo/
+ 1346  ls
+ 1347  cd wechat/
+ 1348  cd ..
+ 1349  vi sftp-config.json 
+ 1350  ls
+ 1351  cd wechat/
+ 1352  ls
+ 1353  cd app/
+ 1354  ls
+ 1355  vi views.py 
+ 1356  l
+ 1357  ssh root@123.57.211.212
+ 1358  ls
+ 1359  ssh root@123.57.231.109
+ 1360  ls
+ 1361  cd ..
+ 1362  ls
+ 1363  ssh root@123.57.231.109
+ 1364  cd
+ 1365  cd workspace/nuanxin/
+ 1366  ls
+ 1367  cd nuanxin/
+ 1368  ls
+ 1369  cd wechat/
+ 1370  ls
+ 1371  ls -l views.py
+ 1372  scp views.py root@123.57.231.109:/root/workspace/nuanxin/wechat/
+ 1373  cd ..
+ 1374  cd app/
+ 1375  ls
+ 1376  cd templates/
+ 1377  ls
+ 1378  scp showFaq.html root@123.57.231.109:/root/workspace/nuanxin/app/templates/
+ 1379  cd ..
+ 1380  scp views.py root@123.57.231.109:/root/workspace/nuanxin/app/
+ 1381  scp  root@123.57.231.109:/root/workspace/nuanxin/app/views.py ./static/
+ 1382  diff views.py static/views.py 
+ 1383  ls
+ 1384  cd static/
+ 1385  ls
+ 1386  subl views.py 
+ 1387  scp views.py  root@123.57.231.109:/root/workspace/nuanxin/app/
+ 1388  rm views.py 
+ 1389  exit
+ 1390  exit
+ 1391  ls
+ 1392  cd workspace/
+ 1393  ls
+ 1394  git clone https://github.com/billvsme/vmaig_blog.git
+ 1395  ls
+ 1396  cd vmaig_blog/
+ 1397  ls
+ 1398  cd templates/
+ 1399  ls
+ 1400  cd admin/
+ 1401  ls
+ 1402  vi base.html 
+ 1403  cd ..
+ 1404  ls
+ 1405  subl .
+ 1406  l
+ 1407  cd ..
+ 1408  ls
+ 1409  virtualenv vmaig_xwp
+ 1410  ls
+ 1411  cd vmaig_
+ 1412  cd vmaig_xwp/
+ 1413  ls
+ 1414  source bin/activate
+ 1415  ls
+ 1416  exit
+ 1417  workon
+ 1418  mkvirtualenv xwpblog
+ 1419  ls
+ 1420  exit
+ 1421  workon 
+ 1422  workon xwpblog
+ 1423  django-admin
+ 1424  django-admin -v
+ 1425  django-admin -version
+ 1426  pip install Django==1.8
+ 1427  quit
+ 1428  exit
+ 1429  sudo pip install --upgrade pip
+ 1430  workon xwpblog
+ 1431  ls
+ 1432  cd workspace/
+ 1433  ls
+ 1434  django-admin
+ 1435  django-admin validate
+ 1436  ls
+ 1437  pip install Pillow
+ 1438  pip install --upgrade pip
+ 1439  pip install pytz
+ 1440  cd vmaig_blog/
+ 1441  python manage.py makemigrations
+ 1442  python manage.py migrate
+ 1443  python manage.py createsuperuser
+ 1444  python manage.py runserver
+ 1445  exit
+ 1446  ifconfig
+ 1447  exit
+ 1448  pwd
+ 1449  exit
+ 1450  cd /var/
+ 1451  ls
+ 1452  mkdir static
+ 1453  sudo mkdir static
+ 1454  ls
+ 1455  sudo chmod 777 static/
+ 1456  cd static/
+ 1457  ls
+ 1458  touch aa
+ 1459  rm aa
+ 1460  ls
+ 1461  tree
+ 1462  exit
+ 1463  ssh webdev@123.57.211.212
+ 1464  exit
+ 1465  vi /usr/local/nginx/logs/error.log 
+ 1466  vi /usr/local/nginx/logs/access.log 
+ 1467  vi /usr/local/nginx/logs/error.log 
+ 1468  exit
+ 1469  cd /var/static/
+ 1470  ls
+ 1471  cd syntaxhighlighter/
+ 1472  ls
+ 1473  exit
+ 1474  cd /usr/local/nginx/conf/
+ 1475  pwd
+ 1476  ls
+ 1477  vi uwsgi_params
+ 1478  pwd
+ 1479  ls
+ 1480  sudo netstat -apn | grep :8000
+ 1481  sudo netstat -apn | grep 8000
+ 1482  exit
+ 1483  cd workspace/
+ 1484  ls
+ 1485  workon xwpblog
+ 1486  cd vmaig_blog/
+ 1487  ls
+ 1488  subl .
+ 1489  ls
+ 1490  python manage.py runserver 
+ 1491  ls
+ 1492  cd templates/
+ 1493  ls
+ 1494  cd ..
+ 1495  cd vmaig_auth/
+ 1496  ls
+ 1497  cd static/
+ 1498  ls
+ 1499  chmod 777 tx
+ 1500  ls -l
+ 1501  cd ..
+ 1502  ls
+ 1503  cd ..
+ 1504  python manage.py runserver 
+ 1505  ls
+ 1506  scp root@123.57.231.109:/root/workspace/nuanxin/uWSGI.ini ./
+ 1507  ls
+ 1508  vi uWSGI.ini 
+ 1509  uwsgi uWSGI.ini 
+ 1510  ls
+ 1511  ps aux
+ 1512  cat uwsgi.pid 
+ 1513  kill 5869
+ 1514  ps ajx
+ 1515  kill -9 -5868
+ 1516  ps ajx
+ 1517  vi uwsgi.log 
+ 1518  pip install security
+ 1519  ls
+ 1520  vi uWSGI.ini 
+ 1521  uwsgi uWSGI.ini 
+ 1522  python
+ 1523  uwsgi uWSGI.ini 
+ 1524  ls
+ 1525  uwsgi uWSGI.ini 
+ 1526  ls
+ 1527  python manage.py runserver 
+ 1528  ls
+ 1529  tree templates/
+ 1530  ls
+ 1531  python manage.py collectstatic
+ 1532  python manage.py runserver 
+ 1533  sudo vi /usr/local/nginx/conf/nginx.conf
+ 1534  sudo /usr/local/nginx/sbin/nginx 
+ 1535  sudo vi /usr/local/nginx/conf/nginx.conf
+ 1536  sudo /usr/local/nginx/sbin/nginx  -s reload
+ 1537  ls
+ 1538  uwsgi uWSGI.ini 
+ 1539  vi uWSGI.ini 
+ 1540  sudo vi /usr/local/nginx/conf/nginx.conf
+ 1541  sudo /usr/local/nginx/sbin/nginx -s stop
+ 1542  sudo /usr/local/nginx/sbin/nginx 
+ 1543  uwsgi uWSGI.ini 
+ 1544  uwsgi --ini uWSGI.ini 
+ 1545  ls
+ 1546  ls vmaig_blog/
+ 1547  uwsgi --ini uWSGI.ini 
+ 1548  vi uWSGI.ini 
+ 1549  uwsgi --ini uWSGI.ini 
+ 1550  ls
+ 1551  uwsgi --ini uWSGI.ini 
+ 1552  ls
+ 1553  vi uWSGI.ini 
+ 1554  uwsgi --ini uWSGI.ini 
+ 1555  ps aux
+ 1556  vi /usr/local/nginx/conf/nginx.conf
+ 1557  vi uWSGI.ini 
+ 1558  ls
+ 1559  ls -a
+ 1560  git status 
+ 1561  git log 
+ 1562  ls
+ 1563  vi all.log 
+ 1564  ls
+ 1565  exit
+ 1566  vi /usr/local/nginx/logs/access.log 
+ 1567  vi /usr/local/nginx/logs/error.log 
+ 1568  vi /usr/local/nginx/logs/access.log 
+ 1569  sudo vi /usr/local/nginx/conf/nginx.conf
+ 1570  sudo /usr/local/nginx/sbin/nginx -s reload
+ 1571  vi /usr/local/nginx/logs/access.log 
+ 1572  vi /usr/local/nginx/logs/error.log 
+ 1573  sudo vi /usr/local/nginx/conf/nginx.conf
+ 1574  sudo /usr/local/nginx/sbin/nginx -s reload
+ 1575  vi /usr/local/nginx/logs/access.log 
+ 1576  vi /usr/local/nginx/logs/error.log 
+ 1577  sudo vi /usr/local/nginx/conf/nginx.conf
+ 1578  sudo /usr/local/nginx/sbin/nginx -s reload
+ 1579  vi /usr/local/nginx/logs/error.log 
+ 1580  vi /usr/local/nginx/logs/access.log 
+ 1581  sudo vi /usr/local/nginx/conf/nginx.conf
+ 1582  vi /usr/local/nginx/conf/uwsgi_params
+ 1583  sudo /usr/local/nginx/sbin/nginx -s reload
+ 1584  sudo vi /usr/local/nginx/conf/nginx.conf
+ 1585  ls
+ 1586  cd /usr/local/nginx/conf/
+ 1587  ls
+ 1588  cp nginx.conf nginx.conf.uwsgi
+ 1589  sudo cp nginx.conf nginx.conf.uwsgi
+ 1590  cd -
+ 1591  ls
+ 1592  sudo vi /usr/local/nginx/conf/nginx.conf
+ 1593  sudo /usr/local/nginx/sbin/nginx -s reload
+ 1594  ifconfig
+ 1595  ps
+ 1596  ps aux
+ 1597  ls
+ 1598  vi uwsgi.log 
+ 1599  ls
+ 1600  ps ajx
+ 1601  kill -9 2007
+ 1602  ps ajx
+ 1603  cd workspace/
+ 1604  ls
+ 1605  cd vmaig_blog/
+ 1606  ls
+ 1607  workon xwpblog
+ 1608  ls
+ 1609  uwsgi uWSGI.ini 
+ 1610  ls
+ 1611  cd workspace/
+ 1612  ls
+ 1613  mkdir source
+ 1614  cd source/
+ 1615  ls
+ 1616  git init 
+ 1617  vi readme
+ 1618  ls
+ 1619  git add .
+ 1620  git commit -m "init"
+ 1621  git remote add origin root@123.57.211.212:/home/git/code/repo
+ 1622  git push origin master
+ 1623  ls
+ 1624  touch aa
+ 1625  git add aa
+ 1626  git commit -m "create aa"
+ 1627  git push origin master
+ 1628  ls
+ 1629  touch  bb
+ 1630  git add bb
+ 1631  git commit -m "create bb"
+ 1632  git push origin master
+ 1633  ls
+ 1634  rm ./*
+ 1635  git add .
+ 1636  git rm ./* 
+ 1637  git commit -m "del all"
+ 1638  git push origin master 
+ 1639  ls
+ 1640  cp ../vmaig_blog ./ -r
+ 1641  ls
+ 1642  cd vmaig_blog/
+ 1643  rm .git -rf
+ 1644  ls
+ 1645  cd ..
+ 1646  ls
+ 1647  git add ./*
+ 1648  git commit -m "create vmaig_blog"
+ 1649  git push origin master 
+ 1650  workon xwpblog
+ 1651  ls
+ 1652  pip freeze > list
+ 1653  cat list 
+ 1654  ls
+ 1655  git add list 
+ 1656  git commit -m "add pip install list"
+ 1657  git push origin master 
+ 1658  workon
+ 1659  ls
+ 1660  cd vmaig_blog/
+ 1661  ls
+ 1662  vi .gitignore 
+ 1663  vi /usr/local/nginx/conf/nginx.conf
+ 1664  ls
+ 1665  vi vmaig_blog/settings.py
+ 1666  ls
+ 1667  vi uWSGI.ini 
+ 1668  vi .gitignore 
+ 1669  ls
+ 1670  vi .gitignore 
+ 1671  ls
+ 1672  vi .gitignore 
+ 1673  ls
+ 1674  git status 
+ 1675  git add .
+ 1676  git commit -m "modef gitignore"
+ 1677  git push origin master 
+ 1678  ls
+ 1679  vi uWSGI.ini 
+ 1680  gedit  uWSGI.ini 
+ 1681  gedit /usr/local/nginx/conf/nginx.conf
+ 1682  history 
+ 1683  gedit vmaig_blog/settings.py
+ 1684  exit
+ 1685  ssh root@123.57.211.212
+ 1686  ls
+ 1687  ssh root@123.57.211.212
+ 1688  s
+ 1689  ls
+ 1690  ssh root@123.57.211.212
+ 1691  s
+ 1692  ssh root@123.57.211.212
+ 1693  exit
+ 1694  ls
+ 1695  cd
+ 1696  ls
+ 1697  cd workspace/
+ 1698  ls
+ 1699  cd nuanxin/
+ 1700  ls
+ 1701  cd nuanxin/
+ 1702  ls
+ 1703  subl .
+ 1704  ls
+ 1705  pwd
+ 1706  ls
+ 1707  cd ..
+ 1708  ls
+ 1709  cd ..
+ 1710  lss
+ 1711  ls
+ 1712  cd vmaig_blog/
+ 1713  ls
+ 1714  python manage.py runserver
+ 1715  workon xwpblog
+ 1716  python manage.py runserver
+ 1717  ls
+ 1718  vi vmaig_blog/settings.py
+ 1719  python manage.py runserver
+ 1720  ls
+ 1721  exit
+ 1722  ls
+ 1723  cd soft/
+ 1724  ls
+ 1725  cd workspace/
+ 1726  ls
+ 1727  cd vmaig_xwp/
+ 1728  ls
+ 1729  tree
+ 1730  ls
+ 1731  cd local/
+ 1732  ls
+ 1733  cd ..
+ 1734  ls
+ 1735  cd bin/
+ 1736  ls
+ 1737  cd ..
+ 1738  ls
+ 1739  cd include/
+ 1740  ls
+ 1741  cd ..
+ 1742  ls
+ 1743  cd ..
+ 1744  ls
+ 1745  cd vmaig_
+ 1746  cd vmaig_blog/
+ 1747  ls
+ 1748  python manage.py runserver
+ 1749  workon 
+ 1750  workon xwpblog
+ 1751  python manage.py runserver
+ 1752  ls
+ 1753  cd ..
+ 1754  ls
+ 1755  tar zcvf vmaig_blog.tar.gz vmaig_blog/
+ 1756  ls
+ 1757  cd vmaig_blog/
+ 1758  pip -r
+ 1759  pip -list
+ 1760  pip list
+ 1761  pip list > pip.list
+ 1762  ls
+ 1763  vi pip.list 
+ 1764  ls
+ 1765  python manage.py runserver
+ 1766  ls
+ 1767  ls -a
+ 1768  rm .git -rf
+ 1769  vi .gitignore 
+ 1770  ls
+ 1771  git init
+ 1772  ls
+ 1773  git remote add origin https://github.com/xwpfullstack/xwp_blog.git
+ 1774  git push -u origin master
+ 1775  ls
+ 1776  ls -a
+ 1777  cd vmaig_blog/
+ 1778  ls -a
+ 1779  cd ..
+ 1780  ls
+ 1781  git add ./*
+ 1782  git commit -m "init blog"
+ 1783  cd blog/
+ 1784  ls
+ 1785  ls -a
+ 1786  cd ..
+ 1787  ls
+ 1788  cd blog/
+ 1789  ls
+ 1790  cd ..
+ 1791  ls
+ 1792  vi .gitignore 
+ 1793  ls
+ 1794  cd blog/
+ 1795  ls -a
+ 1796  tree
+ 1797  cd ..
+ 1798  git add ./*
+ 1799  ls
+ 1800  git commit -m "create blog"
+ 1801  git add ./* -r
+ 1802  git add .
+ 1803  git commit -m "create blog"
+ 1804  ls
+ 1805  git push -u origin master
+ 1806  ls
+ 1807  vi README.md 
+ 1808  git add .
+ 1809  git commit -m "modfie README.md"
+ 1810  git push -u origin master
+ 1811  ls
+ 1812  pip freeze > pip.list 
+ 1813  vi pip.list 
+ 1814  git add pip.list 
+ 1815  git commit -m "update pip.list"
+ 1816  git push -u origin master
+ 1817  ls
+ 1818  vi pip.list 
+ 1819  exit
+ 1820  ls
+ 1821  cd 桌面/
+ 1822  ls
+ 1823  cd
+ 1824  ls
+ 1825  cd Desktop/
+ 1826  ls
+ 1827  vi 一个项目学通django.md 
+ 1828  ls
+ 1829  cd
+ 1830  cd workspace/
+ 1831  ls
+ 1832  cd django/
+ 1833  ls
+ 1834  cd how-to-use-django/
+ 1835  ls
+ 1836  cd ..
+ 1837  ls
+ 1838  cd ..
+ 1839  ls
+ 1840  git clone https://github.com/xwpfullstack/djangostudy.git
+ 1841  ls
+ 1842  cd djangostudy/
+ 1843  ls
+ 1844  vi README.md 
+ 1845  ls
+ 1846  cp ../../Desktop/一个项目学通django.md ./
+ 1847  ls
+ 1848  mv 一个项目学通django.md README.md
+ 1849  ls
+ 1850  git add README.md 
+ 1851  git commit -m "django教程第一版"
+ 1852  git tag v1.0
+ 1853  git commit -m "django v1.0"
+ 1854  git push -u origin 
+ 1855  cd 
+ 1856  cd soft/
+ 1857  ls
+ 1858  cd aa
+ 1859  ls
+ 1860  cd ..
+ 1861  ls
+ 1862  cd workspace/
+ 1863  ls
+ 1864  cd testing/
+ 1865  ls
+ 1866  cd ..
+ 1867  ls
+ 1868  cd django
+ 1869  ls
+ 1870  cd how-to-use-django/
+ 1871  ls
+ 1872  cd step01/
+ 1873  ls
+ 1874  subl .
+ 1875  workon 
+ 1876  workon rango
+ 1877  pip list
+ 1878  pip install --upgrade pip
+ 1879  pip list
+ 1880  pip freeze
+ 1881  pip freeze > install.list
+ 1882  cp install.list ~/Desktop/
+ 1883  exit
+ 1884  ls
+ 1885  cd workspace/
+ 1886  ls
+ 1887  mkdir rango
+ 1888  workon 
+ 1889  workon rango
+ 1890  ls
+ 1891  cd
+ 1892  ls
+ 1893  cd .virtualenvs/
+ 1894  ls
+ 1895  cd -
+ 1896  ls
+ 1897  cd workspace/rango/
+ 1898  ls
+ 1899  django-admin startproject rangopro
+ 1900  ls
+ 1901  tree
+ 1902  cd ..
+ 1903  rm -rf rango/ 
+ 1904  ls
+ 1905  django-admin startproject rango
+ 1906  cd rango/
+ 1907  ls
+ 1908  tree
+ 1909  git init
+ 1910  ls
+ 1911  ls -a
+ 1912  创建目录用来存放虚拟环境
+ 1913  mkdir $HOME/.virtualenvs
+ 1914  在~/.bashrc中添加行： export WORKON_HOME=$HOME/.virtualenvs
+ 1915  在~/.bashrc中添加行：source /usr/local/bin/virtualenvwrapper.sh
+ 1916  运行： source ~/.bashrc
+ 1917  git remote add origin https://github.com/xwpfullstack/rango.git
+ 1918  git push -u origin master
+ 1919  git add .
+ 1920  ls
+ 1921  tree
+ 1922  ls
+ 1923  vi .gitignore
+ 1924  git add .
+ 1925  git commit -m "create rango project"
+ 1926  git push -u origin 
+ 1927  ls
+ 1928  git push -u origin master
+ 1929  ls
+ 1930  tree
+ 1931  python manage.py 
+ 1932  tree
+ 1933  vi rango/settings.py
+ 1934  ls
+ 1935  subl .
+ 1936  python
+ 1937  ls
+ 1938  tree
+ 1939  python manage.py migrate
+ 1940  tree
+ 1941  python manage.py migrations
+ 1942  python manage.py makemigrations
+ 1943  tree
+ 1944  ls
+ 1945  python manage.py runserver
+ 1946  ls
+ 1947  cd ..
+ 1948  ls
+ 1949  rm -rf rango/
+ 1950  ls
+ 1951  django-admin startproject itcast_project
+ 1952  ls
+ 1953  cd itcast_project/
+ 1954  ls
+ 1955  tree
+ 1956  python manage.py makemigrations
+ 1957  python manage.py migrate
+ 1958  ls
+ 1959  python manage.py runserver 10000
+ 1960  ls
+ 1961  python manage.py startapp rango
+ 1962  tree
+ 1963  subl .
+ 1964  python manage.py runserver
+ 1965  ls
+ 1966  vi .gitignore
+ 1967  ls
+ 1968  git init
+ 1969  git add .
+ 1970  git remote add origin https://github.com/xwpfullstack/itcast_project.git
+ 1971  git push -u origin master
+ 1972  git commit -m 
+ 1973  git commit -m "create project"
+ 1974  git push -u origin master
+ 1975  ls
+ 1976  tree
+ 1977  mkdir templates/rango -p
+ 1978  tree
+ 1979  ls
+ 1980  python manage.py runserver
+ 1981  python manage.py runserver 
+ 1982  tree
+ 1983  mkdir -p static/images
+ 1984  tree
+ 1985  python manage.py runserver 
+ 1986  tree
+ 1987  python manage.py runserver 
+ 1988  ls
+ 1989  python manage.py makemigrations
+ 1990  python manage.py migrate rango
+ 1991  python manage.py createsuperuser
+ 1992  python manage.py runserver 
+ 1993  git add .
+ 1994  git commit -m "model"
+ 1995  git push -u master
+ 1996  git push -u origin  master
+ 1997  ls
+ 1998  sqlite3 db.sqlite3 
+ 1999  exit
+ 2000  subl .
+ 2001  python manage.py --help
+ 2002  python manage.py createsuperuser
+ 2003  workon rango
+ 2004  pip freeze lsit
+ 2005  pip freeze list
+ 2006  ls
+ 2007  cd ..
+ 2008  ls
+ 2009  git clone https://github.com/leifos/tango_with_django
+ 2010  ls
+ 2011  cd tango_with_django/
+ 2012  ls
+ 2013  vi README.rst 
+ 2014  ls
+ 2015  cd tango_with_django_project/
+ 2016  ls
+ 2017  python manage.py runserver
+ 2018  python manage.py migrate
+ 2019  ls
+ 2020  python manage.py createsupersuer
+ 2021  python manage.py createsuperuser
+ 2022  ls
+ 2023  cd static/
+ 2024  ls
+ 2025  cd ..
+ 2026  ls
+ 2027  cd tango_with_django_project/
+ 2028  ls
+ 2029  vi settings.py
+ 2030  ls
+ 2031  cd ..
+ 2032  ls
+ 2033  python manage.py runserver
+ 2034  ls
+ 2035  cd ..
+ 2036  ls
+ 2037  cd ..
+ 2038  ls
+ 2039  cd django
+ 2040  ls
+ 2041  cd test/
+ 2042  ls
+ 2043  cd itcast
+ 2044  cd ..
+ 2045  cd itcast_project/
+ 2046  ls
+ 2047  python manage.py runserver
+ 2048  ls
+ 2049  vi populate_rango2.py 
+ 2050  vi populate_rango.py 
+ 2051  ls
+ 2052  rm populate_rango2.py 
+ 2053  ls
+ 2054  rm db.sqlite3 
+ 2055  ls
+ 2056  python manage.py migrate
+ 2057  python populate_rango.py 
+ 2058  ls
+ 2059  python manage.py runserver
+ 2060  ls
+ 2061  cd ..
+ 2062  ls
+ 2063  cd itcast_project/
+ 2064  ls
+ 2065  ls -a
+ 2066  git init
+ 2067  git remote add origin https://github.com/xwpfullstack/itcast_project_2.git
+ 2068  git push -u origin master
+ 2069  ls
+ 2070  git add .
+ 2071  git commit -m "itcast_project_2"
+ 2072  git push -u origin master
+ 2073  ls
+ 2074  python manage.py runserver
+ 2075  python manage.py createsuperuser
+ 2076  python manage.py runserver
+ 2077  pip freeze
+ 2078  history 
+ 2079  history >ff
