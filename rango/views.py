@@ -29,7 +29,7 @@ def category(request, category_name_slug):
         pages = Page.objects.filter(category=category)
         context_dict['pages'] = pages
         context_dict['category'] = category
-	context_dict['category_name_slug']=category_name_slug
+        context_dict['category_name_slug']=category_name_slug
     except Category.DoesNotExist:
         pass
     return render(request, 'rango/category.html', context_dict)
